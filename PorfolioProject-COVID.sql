@@ -1,16 +1,16 @@
---General query to see if everything come up alright in CovidDeaths table
+--General query to see if everything comes up alright in CovidDeaths table
 SELECT *
   FROM PortfolioProject..CovidDeaths
  WHERE continent IS NOT NULL
  ORDER BY 3, 4;
 
---General query to see if everything come up alright in CovidVaccinations table
+--General query to see if everything comes up alright in CovidVaccinations table
 SELECT *
   FROM PortfolioProject..CovidVaccinations
  WHERE continent IS NOT NULL
  ORDER BY 3, 4;
 
---Select Data that we are going to use for this example
+--Selecting data that I am going to use for this example
 SELECT location, date, total_cases, new_cases, total_deaths, population
   FROM PortfolioProject..CovidDeaths
  WHERE continent IS NOT NULL
