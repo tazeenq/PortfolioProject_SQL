@@ -1,3 +1,8 @@
+/*
+Exploring COVID-19 Data with SQL 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
+
 --General query to see if everything comes up alright in CovidDeaths table
 SELECT *
   FROM PortfolioProject..CovidDeaths
